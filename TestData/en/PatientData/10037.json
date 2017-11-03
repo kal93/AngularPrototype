@@ -1,0 +1,187 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "FRANK",
+		"Gender": "M",
+		"NHS": "217092729",
+		"PIDX": "10037",
+		"AkaName": "JOHN CLEAR",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "GJJ",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, FRANK"
+	},
+  "Accession": [
+        {
+      "AccessionNumber": "H363",
+      "PIDX": "10037",
+      "SpecimenDetails": "HAIR SAMPLE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "ZAYN WATER",
+      "Test": [
+        {
+          "AccessionNumber": "H363",
+          "TestName": "CAVITY TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "COPATH",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "POWERPATH",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "UNICOLLECT",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "CLICK HERE..",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+
+          ]
+        }
+      ]
+    },
+        {
+      "AccessionNumber": "H009",
+      "PIDX": "10037",
+      "SpecimenDetails": "HAIR SAMPLE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "ZAYN WATER",
+      "Test": [
+        {
+          "AccessionNumber": "H009",
+          "TestName": "CAVITY TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "COPATH",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "POWERPATH",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "UNICOLLECT",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "CLICK HERE..",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+
+          ]
+        },
+        {
+          "AccessionNumber": "H009",
+          "TestName": "BLOOD SAMPLE TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "GB,53",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "COPATH",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "POWERPATH",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "UNICOLLECT",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "CLICK HERE..",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+
+          ]
+        }
+      ]
+    }
+
+	]
+}

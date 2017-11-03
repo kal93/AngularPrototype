@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="userNamePlaceholder" datatype="html">
+        <source>User Name</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\login\login.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\admin\manage-users\manage-users.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for User name field</note>
+        <note priority="1" from="meaning">userName</note>
+      </trans-unit>
+      <trans-unit id="passWordPlaceholder" datatype="html">
+        <source>Password</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\login\login.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for password field</note>
+        <note priority="1" from="meaning">password</note>
+      </trans-unit>
+      <trans-unit id="selectHostSystemPlaceholder" datatype="html">
+        <source>Select Host System</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\login\login.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\admin\manage-users\manage-users.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for Select Host System field</note>
+        <note priority="1" from="meaning">selectHostSystem</note>
+      </trans-unit>
+      <trans-unit id="selectHostRolePlaceholder" datatype="html">
+        <source>Select Host Role</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\login\login.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\admin\manage-users\manage-users.component.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for Select Host Role field</note>
+        <note priority="1" from="meaning">selectHostRole</note>
+      </trans-unit>
+      <trans-unit id="lastNamePlaceholder" datatype="html">
+        <source>Last Name</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for lastName field </note>
+        <note priority="1" from="meaning">lastName</note>
+      </trans-unit>
+      <trans-unit id="firstNamePlaceholder" datatype="html">
+        <source>First Name</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for firstName field </note>
+        <note priority="1" from="meaning">firstName</note>
+      </trans-unit>
+      <trans-unit id="middleNamePlaceholder" datatype="html">
+        <source>Middle Name</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for middleName field </note>
+        <note priority="1" from="meaning">middleName</note>
+      </trans-unit>
+      <trans-unit id="patientIdPlaceholder" datatype="html">
+        <source>Patient Id</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for patientId field </note>
+        <note priority="1" from="meaning">patientId</note>
+      </trans-unit>
+      <trans-unit id="nhsNoPlaceholder" datatype="html">
+        <source>NHS No.</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for nhsNo field </note>
+        <note priority="1" from="meaning">nhsNo</note>
+      </trans-unit>
+      <trans-unit id="dobPlaceholder" datatype="html">
+        <source>Date Of Birth</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for dob field </note>
+        <note priority="1" from="meaning">dob</note>
+      </trans-unit>
+      <trans-unit id="billAccountPlaceholder" datatype="html">
+        <source>Billing Account No</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for billAccount field </note>
+        <note priority="1" from="meaning">billAccount</note>
+      </trans-unit>
+      <trans-unit id="mpiPlaceholder" datatype="html">
+        <source>MPI</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for mpi field </note>
+        <note priority="1" from="meaning">mpi</note>
+      </trans-unit>
+      <trans-unit id="selectedHidsPlaceholder" datatype="html">
+        <source>Filter HID(s)</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\search.component.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for selectedHids field</note>
+        <note priority="1" from="meaning">selectedHids</note>
+      </trans-unit>
+      <trans-unit id="namePlaceholder" datatype="html">
+        <source>Name</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\admin\manage-users\manage-users.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for Name field </note>
+        <note priority="1" from="meaning">name</note>
+      </trans-unit>
+      <trans-unit id="userDescription" datatype="html">
+        <source>User description</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\admin\manage-users\manage-users.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for User description field</note>
+        <note priority="1" from="meaning">userDescription</note>
+      </trans-unit>
+      <trans-unit id="daysPriorToLastActivityPlaceholder" datatype="html">
+        <source>Days prior to last activity</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\search\patient-list.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">Place holder text for daysPriorToLastActivity </note>
+        <note priority="1" from="meaning">daysPriorToLastActivity</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

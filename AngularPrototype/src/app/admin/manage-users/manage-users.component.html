@@ -1,0 +1,59 @@
+<!--
+  This file is designed to display selected users data
+  Can edit user data and update by clicking update button
+  A snackbar(mdSnackBar) displays once user is updated in user-lists screen on bottom of the page
+-->
+<form [formGroup]="editUsersForm" novalidate>
+    <!-- Start of user details Section -->
+    <div class="manage-user-div">
+        <!-- Header for the update user section -->
+        <h2>{{manageUserHeaderText}}</h2>
+        <div class="user-edit-section">
+            <!-- Placeholder for Name -->
+            <md-input-container class="user-input-element">
+                <input mdInput type="text" placeholder="Name" required formControlName="name"
+                       i18n-placeholder="name|Place holder text for Name field @@namePlaceholder">
+                <md-error>{{nameMandatory}}</md-error>
+            </md-input-container>
+            <!-- Placeholder for User Name -->
+            <md-input-container class="user-input-element">
+                <input mdInput type="text" placeholder="User Name" required formControlName="username"
+                       i18n-placeholder="userName|Place holder text for User name field@@userNamePlaceholder">
+                <md-error>{{usernameMandatory}}</md-error>
+            </md-input-container>
+            <!-- Placeholder for User description -->
+            <md-input-container class="user-input-element">
+                <input mdInput type="text" placeholder="User description" formControlName="userDescription"
+                       i18n-placeholder="userDescription|Place holder text for User description field@@userDescription">
+            </md-input-container>
+            <!-- To select Host system for the selected user -->
+            <md-select placeholder="Select Host System" name="host" (change)="changeHostdata()" class="user-input-element" formControlName="selectedHostSystem" required
+                       i18n-placeholder="selectHostSystem|Place holder text for Select Host System field@@selectHostSystemPlaceholder">
+                <md-option *ngFor="let host of hostSystems" [value]="host.Name">
+                    {{host.Name}}
+                </md-option>
+            </md-select>
+            <!--To select Host role for the selected user-->
+            <md-select placeholder="Select Host Role" name="role" (change)="changeHostdata()" class="user-input-element" formControlName="selectedHostRole" required
+                       i18n-placeholder="selectHostRole|Place holder text for Select Host Role field@@selectHostRolePlaceholder">
+                <md-option *ngFor="let hostRole of hostRoles" [value]="hostRole.Role">
+                    {{hostRole.Role}}
+                </md-option>
+            </md-select>
+            <label class="user-permissions-label">{{userPermission}}</label>
+            <div class="user-permissions">
+                <md-checkbox class="user-input-element" disabled="disabled" name="suppresults" formControlName="selectSuppressResults">{{suppressedResults}}</md-checkbox>
+                <md-checkbox class="user-input-element" disabled="disabled" name="sensitiveData" formControlName="selectSensitiveData">{{sensitiveData}}</md-checkbox>
+            </div>
+            <!-- Section for update clear buttons -->
+            <div class="update-clear-section">
+                <button md-raised-button class="sq-btn btn-primary" (click)="addUpdateUser()" [disabled]="isUpdateDisable">
+                    {{addOrUpdateButtonText}}
+                </button>
+                <button md-raised-button class="sq-btn btn-secondary" (click)="cancel()">{{cancelButtonText}}</button>
+            </div>
+        </div>
+    </div>
+    <!-- End of user details Section -->
+</form>
+<!--End of Search Form Section-->

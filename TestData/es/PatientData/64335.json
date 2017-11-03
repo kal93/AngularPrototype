@@ -1,0 +1,111 @@
+﻿{
+  "Accession": [
+    {
+      "AccessionNumber": "H126",
+      "CollectDate": "2014-02-01T09:01:00",
+      "RecieveDate": "2014-02-01T09:01:00",
+      "OrderingPhysician": "STELLA",
+      "PIDX": "64335",
+      "SpecimenDetails": "Uña del dedo",
+      "OrderAccountNo": null,
+      "OrderLocation": "COPATH LABORATORIO",
+      "PatientConsent": "true",
+      "Test": [
+        {
+          "TestName": "PRUEBA DE ADN 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "llamar de vuelta",
+          "PriorityCode": null,
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>llamar de vuelta</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H007",
+      "CollectDate": "2016-02-01T09:01:00",
+      "RecieveDate": "2016-02-01T09:01:00",
+      "OrderingPhysician": "DANIEL JACKSON",
+      "PIDX": "64335",
+      "SpecimenDetails": "Uña del dedo",
+      "OrderAccountNo": null,
+      "OrderLocation": "COPATH LABORATORIO",
+      "PatientConsent": "true",
+      "Test": [
+        {
+          "TestName": "ANÁLISIS DEL TEJIDO CEREBRAL 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "llamar de vuelta",
+          "PriorityCode": null,
+          "PerformingLabCode": "SUNQUEST-001",
+          "TestCode": "H-23G",
+          "Result": [
+            {
+              "ResultData": "Copath Resultado",
+              "ResultedTechCode": null,
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H247",
+      "CollectDate": "2015-02-01T09:01:00",
+      "RecieveDate": "2015-02-01T09:01:00",
+      "OrderingPhysician": "SMITH JACKSON",
+      "PIDX": "64335",
+      "SpecimenDetails": "DEDO DEL PIE",
+      "OrderAccountNo": null,
+      "OrderLocation": "COPATH más LAB",
+      "PatientConsent": "true",
+      "Test": [
+        {
+          "TestName": "ANÁLISIS DE TEJIDO LINGÜÍSTICO 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "llamar de vuelta",
+          "PriorityCode": null,
+          "PerformingLabCode": "SUNQUEST-001",
+          "TestCode": "H-23431G",
+          "Result": [
+            {
+              "ResultData": null,
+              "ResultedTechCode": "[HA]",
+              "ResultedTime": null,
+              "ExternalQAFlags": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "PatientDemographics": {
+    "AkaName": null,
+    "BirthDateText": "05/11/2000",
+    "LastName": "CRUISE",
+    "FirstName": "SIMPSON",
+    "MiddleName": null,
+    "Name": "SIMPSON, CRUISE",
+    "MedicalRecordNumber": "35346",
+    "SSN": null,
+    "Gender": "F",
+    "NHS": "324000654",
+    "PIDX": "64335",
+    "DateOfLastActivityText": "30/11/2016",
+    "MPI": "4235",
+    "HospitalCode": "GJJ",
+    "BillingAccountNumber": null
+  }
+}

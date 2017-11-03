@@ -1,0 +1,2 @@
+2017-08-03 12:16:15,138 [50] ERROR Patient Inquiry Logger - PatientResultsController : GetPatientResults - Value cannot be null.
+Parameter name: body

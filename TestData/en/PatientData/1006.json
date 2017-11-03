@@ -1,0 +1,48 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "STYLES",
+		"Gender": "M",
+		"NHS": "378214782",
+		"PIDX": "1006",
+		"AkaName": "JOHN CENA",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "HID5",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, STYLES"
+	},
+  "Accession": [
+    {
+      "AccessionNumber": "H7861",
+      "PIDX": "1006",
+      "SpecimenDetails": "NAIL SAMPLE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "ZAYN WATER",
+      "Test": [
+        {
+          "AccessionNumber": "H7861",
+          "TestName": "CAVITY TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    }
+
+	]
+}

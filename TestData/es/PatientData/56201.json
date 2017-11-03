@@ -1,0 +1,43 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "MELON",
+		"Gender": "M",
+		"NHS": "324000654",
+		"PIDX": "56201",
+		"AkaName": "john jazz",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "GJJ",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, MELON"
+	},
+	"Accession": [{
+			"AccessionNumber": "H126",
+			"PIDX": "56201",
+			"SpecimenDetails": "Uña del dedo",
+			"OrderLocation": "COPATH LABORATORIO",
+			"PatientConsent": true,
+			"CollectDate": "03/11/2016 07:09",
+			"RecieveDate": "03/11/2016 09:09",
+			"OrderingPhysician": "STELLA",
+			"Test": [{
+				"AccessionNumber": "H126",
+				"TestName": "PRUEBA DE ADN 00G",
+				"Units": null,
+				"NormalRange": null,
+				"Callback": "llamar de vuelta",
+				"PerformingLabCode": "[A421]",
+				"TestCode": "H-23G1",
+				"Result": [{
+					"ResultData": "<u>llamar de vuelta</u>",
+					"ResultedTechCode": "H-23G1",
+					"ResultedTime": "13/01/2017 15:00",
+					"ExternalQAFlags": ""
+				}]
+			}]
+		}
+
+	]
+}

@@ -1,0 +1,142 @@
+﻿ {
+  "PatientDemographics": 
+  {
+    "FirstName": "CHANDLER",
+    "LastName": "BING",   
+    "Gender": "M",  
+    "NHS": "7894561234",
+    "PIDX": "4427",
+    "AkaName": "BING",
+    "BirthDateText": "05/11/1999",
+    "DateOfLastActivityText": "05/11/1996",
+    "HospitalCode": "HID2",
+    "Name": "CHANDLER,BING",
+    "MedicalRecordNumber": "4545", 
+	"MPI": "57232"	
+  },
+  "Accession": 
+  [
+    {
+      "AccessionNumber": "H002",
+      "PIDX": "4427",
+      "SpecimenDetails": "BLOOD SAMPLE",
+      "OrderLocation": "SUNQUEST-002",
+      "PatientConsent": true,
+      "CollectDate": "06/29/2017 07:39",
+      "RecieveDate": "06/30/2017 09:00",
+      "OrderingPhysician": "JACKSON",
+      "Test": 
+      [
+        {
+		  "AccessionNumber": "H002",
+          "TestName": "SHALLOW 00G",         
+          "NormalRange": "[16-40]",
+          "Units": "MG",
+          "Callback": "",
+          "PerformingLabCode": "[A]",         
+          "TestCode": "H-23G",         
+          "Result": 
+          [
+            {
+              "ResultData": "Pending...",
+              "ResultedTechCode": "H-23G",
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "Normal",
+              "ResultedTechCode": "23G",
+              "ResultedTime": "30/01/2017 11:00",
+              "ExternalQA": "1004"
+            }
+          ]
+        },
+        {
+		"AccessionNumber": "H002",
+          "TestName": "BRAIN TISSUE ANALYSIS 00G",
+		  "NormalRange": "[16-40]",
+          "Units": "ML",
+          "Callback": "PENDING",
+          "PerformingLabCode": "[C]",          
+          "TestCode": "H-24G",         
+          "Result": 
+          [
+            {
+              "ResultData": "Pending...",
+              "ResultedTechCode": "23G",
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>Unable to get the Results</u>",
+              "ResultedTechCode": "1002",
+              "ResultedTime": "1003",
+              "ExternalQA": "1004"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "AccessionNumber": "H003",
+      "PIDX": "4427",
+      "SpecimenDetails": "BLOOD SAMPLE",
+      "OrderLocation": "SUNQUEST-002",
+      "PatientConsent": true,
+      "CollectDate": "06/29/2017 07:39",
+      "RecieveDate": "06/30/2017 09:00",
+      "OrderingPhysician": "JACKSON",
+      "Test": 
+      [
+        {
+		"AccessionNumber": "H003",
+          "TestName": "SHALLOW 001",
+          "NormalRange": "[36-40]",
+          "Units": "ML",
+          "Callback": "Callback",
+          "PerformingLabCode": "[D]",          
+          "TestCode": "H-23F",          
+          "Result": 
+          [
+            {
+              "ResultData": "Result 1",
+              "ResultedTechCode": "H-23G",
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "Result 2",
+              "ResultedTechCode": "23G",
+              "ResultedTime": "30/01/2017 11:00",
+              "ExternalQA": "1004"
+            }
+          ]
+        },
+        {
+		"AccessionNumber": "H002",
+          "TestName": "BRAIN TISSUE ANALYSIS 00G",
+          "NormalRange": "[10-15]",
+          "Units": "ML",
+          "Callback": "Callback",
+          "PerformingLabCode": "[F]",   
+          "TestCode": "H-24G",          
+          "Result": 
+          [
+            {
+              "ResultData": "Result 21",
+              "ResultedTechCode": "23G",
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "Result 23",
+              "ResultedTechCode": "1002",
+              "ResultedTime": "1003",
+              "ExternalQA": "1004"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+﻿body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Styles for Buttons*/
+button {
+    font-family: inherit;
+}
+
+/*Common styles for Buttons*/
+.sq-btn {
+    padding: 3px 17px;
+    font-size: 16px;
+    margin: 10px;
+    /*Used '!important' to override MD-Styles*/
+    margin-right: 20px !important;
+    text-transform: uppercase;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 0 2px 2px 0 rgba(50, 50, 50, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(50, 50, 50, 0.2);
+}
+
+    .sq-btn:disabled, .sq-btn.disabled, .sq-btn[disabled],
+    .btn-primary:disabled, .btn-primary.disabled, .btn-primary[disabled],
+    .btn-secondary:disabled, .btn-secondary.disabled, .btn-secondary[disabled] {
+        background: #d5d5d9;
+        /*Used '!important' to override MD-Styles*/
+        color: #aaabb0 !important;
+        border: none;
+    }
+/*Styles for Primary Buttons*/
+.btn-primary {
+    /*Used '!important' to override MD-Styles*/
+    color: #ffffff !important;
+    border: none;
+}
+
+/*Styles for Secondary Buttons*/
+.btn-secondary {
+    background: #ebebeb;
+    border: none;
+}
+
+    .btn-secondary:hover, .btn-secondary.hover,
+    .btn-secondary:focus, .btn-secondary.focus {
+        background: #dddfe3;
+    }
+
+    .btn-secondary:active, .btn-secondary.active {
+        background: #d5d5d9;
+    }
+
+/*This styles are for Horizontal line */
+hr {
+    border: 1px solid #dee0e3;
+}
+
+/*This Styles are for Patient list grid*/
+.grid-section {
+    padding: 0 2%;
+}
+/*This styles are for NOT to show the outline for the checkbox */
+.mat-checkbox {
+    outline: none;
+}
+
+/*=======AG Grid Styles Override Start=======*/
+.ag-header-cell-text {
+    padding-left: 2px;
+    font-size: 12px;
+}
+
+.ag-material .ag-header {
+    border: none;
+}
+
+.ag-material .ag-ltr .ag-header-cell {
+    border-right: none;
+    border-bottom: 1px solid #808080;
+}
+
+.ag-material .ag-cell-focus {
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+}
+
+.ag-material .ag-cell {
+    outline: none;
+}
+/*=======AG Grid Styles Override End=======*/
+
+/*To remove 'X' mark displaying for input fields in IE and Edge for desktop screens*/
+@media screen and (min-width:769px) {
+    input[type=text]::-ms-clear, input[type=password]::-ms-clear, input[type=email]::-ms-clear, input[type=number]::-ms-clear {
+        display: none;
+    }
+}
+
+/*This styles are for message if no result returned from Service*/
+.no-result-div {
+    background-color: #f0f0f0;
+    border: 1px solid #dee0e3;
+    font-size: 16px;
+    color: #7e7e80;
+    text-align: center;
+    padding-top: 38px;
+    margin: 0 55px 0 40px;
+    height: 100px;
+}

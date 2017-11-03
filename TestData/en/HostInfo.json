@@ -1,0 +1,24 @@
+{
+  "HostSystems": [
+    {
+      "Name": "Laboratory"
+    },
+    {
+      "Name": "Copath"
+    }
+  ],
+  "HostRoles": [
+    {
+      "Role": "Reviewer"
+    },
+    {
+      "Role": "Fellow"
+    },
+    {
+      "Role": "Administrator"
+    },
+    {
+      "Role": "Pathologist"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+﻿{
+  "Accession": [
+    {
+      "AccessionNumber": "H126",
+      "CollectDate": "2014-02-01T09:01:00",
+      "RecieveDate": "2014-02-01T09:01:00",
+      "OrderingPhysician": "STELLA",
+      "PIDX": "64335",
+      "SpecimenDetails": "TOE NAIL",
+      "OrderAccountNo": null,
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": "true",
+      "Test": [
+        {
+          "TestName": "DNA TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PriorityCode": null,
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H007",
+      "CollectDate": "2016-02-01T09:01:00",
+      "RecieveDate": "2016-02-01T09:01:00",
+      "OrderingPhysician": "DANIEL JACKSON",
+      "PIDX": "64335",
+      "SpecimenDetails": "TOE NAIL",
+      "OrderAccountNo": null,
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": "true",
+      "Test": [
+        {
+          "TestName": "BRAIN TISSUE ANALYSIS 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PriorityCode": null,
+          "PerformingLabCode": "SUNQUEST-001",
+          "TestCode": "H-23G",
+          "Result": [
+            {
+              "ResultData": "Copath Result",
+              "ResultedTechCode": null,
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H247",
+      "CollectDate": "2015-02-01T09:01:00",
+      "RecieveDate": "2015-02-01T09:01:00",
+      "OrderingPhysician": "SMITH JACKSON",
+      "PIDX": "64335",
+      "SpecimenDetails": "TOE",
+      "OrderAccountNo": null,
+      "OrderLocation": "COPATH plus LAB",
+      "PatientConsent": "true",
+      "Test": [
+        {
+          "TestName": "TONGUE TISSUE ANALYSIS 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PriorityCode": null,
+          "PerformingLabCode": "SUNQUEST-001",
+          "TestCode": "H-23431G",
+          "Result": [
+            {
+              "ResultData": null,
+              "ResultedTechCode": "[HA]",
+              "ResultedTime": null,
+              "ExternalQAFlags": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "PatientDemographics": {
+    "AkaName": null,
+    "BirthDateText": "05/11/2000",
+    "LastName": "CRUISE",
+    "FirstName": "SIMPSON",
+    "MiddleName": null,
+    "Name": "SIMPSON, CRUISE",
+    "MedicalRecordNumber": "35346",
+    "SSN": null,
+    "Gender": "F",
+    "NHS": "324000654",
+    "PIDX": "64335",
+    "DateOfLastActivityText": "30/11/2016",
+    "MPI": "4235",
+    "HospitalCode": "GJJ",
+    "BillingAccountNumber": null
+  }
+}

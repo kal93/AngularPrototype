@@ -1,0 +1,95 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "FELLOW",
+		"Gender": "M",
+		"NHS": "882907221",
+		"PIDX": "5201",
+		"AkaName": "JOHN CENA",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "GJJ",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, FELLOW"
+	},
+  "Accession": [
+    {
+      "AccessionNumber": "H1261",
+      "PIDX": "5201",
+      "SpecimenDetails": "SAÇ ÖRNEĞİ",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/12/2016 07:15",
+      "RecieveDate": "05/12/2016 09:36",
+      "OrderingPhysician": "ZAYN WATER",
+      "Test": [
+        {
+          "AccessionNumber": "H1261",
+          "TestName": "HAVA TESTİ 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u> buraya tıklayın ... </ u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H1361",
+      "PIDX": "5201",
+      "SpecimenDetails": "TOE KEMİĞİ",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "STELLA",
+      "Test": [
+        {
+      "AccessionNumber": "H1361",
+      "TestName": "TOE KEMİK KALSİYUM TESTİ 00G",
+      "Units": null,
+      "NormalRange": null,
+      "Callback": "gsdgf",
+      "PerformingLabCode": "[A421]",
+      "TestCode": "H-23G1",
+      "Result": [
+        {
+          "ResultData": "<u> buraya tıklayın ... </ u>",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "COPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "POWERPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "buraya tıklayın...",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        }
+      ]
+    }
+  ]
+		}
+
+	]
+}

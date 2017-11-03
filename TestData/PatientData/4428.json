@@ -1,0 +1,78 @@
+﻿{
+    "PatientDemographics": {
+        "FirstName": "MONICA",
+        "Gender": "F",
+        "LastName": "GELLER",
+        "NHS": "1231231234",
+        "PIDX": "4428",
+        "AkaName": "JOHN",
+        "BirthDateText": "05/11/1959",
+        "DateOfLastActivityText": "05/11/2018",
+        "HospitalCode": "HID1",
+        "Name": "MONICA, GELLER",
+        "MedicalRecordNumber": "2351",
+        "MPI": "34007"
+    },
+    "Accession": [
+        {
+            "AccessionNumber": "H001",
+            "PIDX": "4428",
+            "SpecimenDetails": "LIVER TISSUE",
+            "OrderLocation": "SUNQUEST-001",
+            "PatientConsent": true,
+            "CollectDate": "06/29/2017 07:39",
+            "RecieveDate": "06/30/2017 09:00",
+            "OrderingPhysician": "JOHN",
+            "Test": [
+                {
+                    "AccessionNumber": "H001",
+                    "TestName": "HALLOW 23G",
+                    "NormalRange": "[16-40]",
+                    "Units": "MG",
+                    "Callback": "lab-test",
+                    "PerformingLabCode": "[B]",
+                    "TestCode": "H-09G",
+                    "Result": [
+                        {
+                            "ResultData": "Pending...",
+                            "ResultedTechCode": "H-23G",
+                            "ResultedTime": "06/30/2017 15:00",
+                            "ExternalQAFlags": "M"
+            },
+                        {
+                            "ResultData": "Bilirubin count is less",
+                            "ResultedTechCode": "H-00H",
+                            "ResultedTime": "06/31/2017 10:00",
+                            "ExternalQAFlags": "L"
+            }
+          ]
+        },
+                {
+                    "AccessionNumber": "H001",
+                    "TestName": "BALLOON 23G",
+                    "ExternalQAFlags": "MG/DL11",
+                    "NormalRange": "[0-7]",
+                    "Units": "LT",
+                    "Callback": "report pdf",
+                    "PerformingLabCode": "[C]",
+                    "TestCode": "H-23G",
+
+                    "Result": [
+                        {
+                            "ResultData": null,
+                            "ResultedTechCode": "B-43G",
+                            "ResultedTime": "06/30/2017 15:00",
+                            "ExternalQAFlags": ""
+            },
+                        {
+                            "ResultData": "urea content is less",
+                            "ResultedTechCode": "H-004",
+                            "ResultedTime": "06/31/2017 10:00",
+                            "ExternalQAFlags": "H"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

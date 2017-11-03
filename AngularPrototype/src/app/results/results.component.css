@@ -1,0 +1,20 @@
+/*These styles are for Result section */
+.result-section {
+    padding: 1% 2%;
+}
+/*These styles are for Result ag-grid */
+.result-master {
+    font-family: inherit;
+    width: 100%;
+    height: 1000px;
+}
+/*These styles are for header of Result page */
+.result-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #42444f;
+}
+/*This style used to render Update button at the right side of Result grid*/
+.update-section {
+    float: right;
+}

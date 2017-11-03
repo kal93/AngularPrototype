@@ -1,0 +1,115 @@
+.sq-header {
+    background-color: #1c92c1;
+    color: #fff;
+    line-height: 47px;
+    padding: 0 15px 0 15px;
+    font-size: 18px;
+}
+
+.sq-logo {
+    height: 26px;
+    width: 113px;
+    vertical-align: middle;
+}
+
+.sq-app-name {
+    margin-left: 21px;
+    margin-right: 40px;
+}
+
+.sq-login-details {
+    float: right;
+    margin-top: -5px;
+}
+
+.sq-name-space {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.sq-seperator {
+    padding: 0 14px 0 14px;
+}
+
+.sq-user-name {
+    padding: 0 8px 0 8px;
+}
+
+.sq-sidenav-container {
+    position: inherit;
+    height: 100%;
+    display: inherit;
+    transform: inherit;
+}
+
+/*Used '!important' as routerLinkActive is not overriding Styles*/
+.sq-link-active {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.fa {
+    font-size: 16px;
+}
+
+.sq-sidenav-menu {
+    padding-right: 10px;
+    display: none;
+}
+
+.sq-sidenav-login-details.mat-toolbar-row {
+    display: none;
+}
+
+    .sq-sidenav-login-details.mat-toolbar-row:first-child {
+        display: none;
+    }
+
+/*Used '!important' to override MD-Styles*/
+.sq-hide {
+    display: none !important;
+}
+
+.sq-sidenav-tab-list {
+    opacity: 1;
+    color: #b5d4e6;
+}
+/*=======MD Styles Override Start=======*/
+
+.mat-tab-nav-bar {
+    border: 0;
+}
+
+/deep/ .mat-ink-bar {
+    background-color: white;
+    height: 3px !important; /*Used !important to override CSS Style*/
+}
+
+.mat-tab-link {
+    opacity: 1;
+    color: #b5d4e6;
+    font-family: inherit;
+    font-size: 22px;
+    min-width: 100px;
+}
+
+.mat-toolbar {
+    font-family: inherit;
+    background: #1c92c1;
+    color: #fff;
+}
+
+.mat-toolbar-row span {
+    outline: none;
+}
+
+.mat-sidenav {
+    background-color: #1c92c1;
+}
+
+/deep/ .mat-menu-panel {
+    min-width: 150px;
+    width: auto;
+}
+
+/*=======MD Styles Override End=======*/

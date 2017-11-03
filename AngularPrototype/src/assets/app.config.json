@@ -1,0 +1,10 @@
+﻿{
+  "GetUserSettingsLink": "http://localhost/PatientInquiryServices/api/User/",
+  "AuthenticateUserLink": "http://localhost/PatientInquiryServices/api/Auth/",
+  "UserListServiceLink": "http://localhost/PatientInquiryServices/api/User/",
+  "GetPatientListServiceLink": "http://localhost/PatientInquiryServices/api/PatientList/",
+  "GetPatientResultServiceLink": "http://localhost/PatientInquiryServices/api/PatientResults/",
+  "UpdateResultServiceLink": "http://localhost/PatientInquiryServices/api/UpdateResults/",
+  "UseRolePermissionsLink": "http://localhost/PatientInquiryServices/api/Auth/",
+  "GetHostInfoLink": "http://localhost/PatientInquiryServices/api/Login/"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "UserId": 1,
+    "Name": "Administracion de laboratorio",
+    "UserName": "PILabAdmin",
+    "UserDescription": "(Administrador -Lab 6.3 PRE-GA Build)",
+    "HostSystem": "Laboratorio",
+    "HostRole": "Administrador",
+    "Permissions": "CanEdit",
+    "Password": "password$123"
+  },
+  {
+    "UserId": 2,
+    "Name": "Compañero de laboratorio",
+    "UserName": "PILabfellow",
+    "UserDescription": "(Compañero -Lab 6.3 PRE- GA Build)",
+    "HostSystem": "Laboratorio",
+    "HostRole": "Compañero",
+    "Permissions": "CanView",
+    "Password": "password$124"
+  },
+  {
+    "UserId": 3,
+    "Name": "Evaluador de laboratorio",
+    "UserName": "PILabReviewer",
+    "UserDescription": "(Crítico -Lab 6.3 PRE- GA Build) ",
+    "HostSystem": "Laboratorio",
+    "HostRole": "Crítico",
+    "Permissions": "CanView",
+    "Password": "password$125"
+  },
+  {
+    "UserId": 4,
+    "Name": "Copath, Admin",
+    "UserName": "PICpAdmin",
+    "UserDescription": "(Administrador-CoPath 6.3 PRE-GA Build)",
+    "HostSystem": "Copath",
+    "HostRole": "Administrador",
+    "Permissions": "CanEdit",
+    "Password": "password$126"
+  },
+  {
+    "UserId": 5,
+    "Name": "Revisor de Copath",
+    "UserName": "PICpReviewer",
+    "UserDescription": "(Crítico-CoPath 6.3 PRE-GA Build)",
+    "HostSystem": "Copath",
+    "HostRole": "Crítico",
+    "Permissions": "CanView",
+    "Password": "password$127"
+  },
+  {
+    "UserId": 6,
+    "Name": "Patólogo de Copath",
+    "UserName": "PICpPathalogist",
+    "UserDescription": "(Patólogo-CoPath 6.3 PRE-GA Build)",
+    "HostSystem": "Copath",
+    "HostRole": "Patólogo",
+    "Permissions": "CanView",
+    "Password": "password$128"
+  }
+]

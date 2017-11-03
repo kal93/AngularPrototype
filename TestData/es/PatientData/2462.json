@@ -1,0 +1,142 @@
+﻿ {
+  "PatientDemographics": 
+  {
+    "FirstName": "GAIL",
+    "LastName": "JOHNSON",
+    "Gender": null,
+    "NHS": "324000123",
+    "PIDX": "2462",
+    "AkaName": "mellow snap",
+    "BirthDateText": "05/11/1999",
+    "DateOfLastActivityText": "05/11/1996",
+    "HospitalCode": "GJJ",
+    "Name": "GAIL, JOHNSON",
+    "MedicalRecordNumber": "45454",
+    "MPI": "456357032"
+  },
+  "Accession": 
+  [
+    {
+      "AccessionNumber": "H980",
+      "PIDX": "2462",
+      "SpecimenDetails": "MUESTRA DEL PELO",
+      "OrderLocation": "SUNQUEST-002",
+      "PatientConsent": true,
+      "CollectDate": "06/29/2017 07:39",
+      "RecieveDate": "06/30/2017 09:00",
+      "OrderingPhysician": "AMY HALLE",
+      "Test": 
+      [
+        {
+		  "AccessionNumber": "H980",
+          "TestName": "poco profundo 00G",
+          "NormalRange": null,
+          "Units": null,
+          "Callback": "llamar de vuelta",
+          "PerformingLabCode": "SUNQUEST-001",
+          "TestCode": "H-23G",
+          "Result": 
+          [
+            {
+              "ResultData": "disponible en resultados copath",
+              "ResultedTechCode": "H-231G",
+              "ResultedTime": "30/01/2017 21:00",
+              "ExternalQAFlags": "BANDERAS EXTERNAS"
+            },
+            {
+              "ResultData": "Normal",
+              "ResultedTechCode": "H-23G",
+              "ResultedTime": "30/01/2017 11:00",
+              "ExternalQAFlags": null
+            }
+          ]
+        },
+        {
+		  "AccessionNumber": "H980",
+          "TestName": "ANÁLISIS DEL TEJIDO CEREBRAL 00G",
+		  "NormalRange": "[16-400]",
+          "Units": null,
+          "Callback": "llamar de vuelta",
+          "PerformingLabCode": "[Bbc02]",
+          "TestCode": "H-23G",
+          "Result": 
+          [
+            {
+              "ResultData": "Pendiente...",
+              "ResultedTechCode": "H-23G",
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>No se pueden obtener los resultados</u>",
+              "ResultedTechCode": "1002",
+              "ResultedTime": "1003",
+              "ExternalQA": "1004"
+            }
+          ]
+        }
+      ]
+    },
+	  {
+      "AccessionNumber": "H981",
+      "PIDX": "2462",
+      "SpecimenDetails": "MUESTRA DE SANGRE",
+      "OrderLocation": "SUNQUEST-002",
+      "PatientConsent": true,
+      "CollectDate": "06/29/2017 07:39",
+      "RecieveDate": "06/30/2017 09:00",
+      "OrderingPhysician": "AMY JACKSON",
+      "Test": 
+      [
+        {
+          "AccessionNumber": "H981",
+          "TestName": "poco profundo 00G",
+          "NormalRange": null,
+          "Units": null,
+          "Callback": "llamar de vuelta",
+          "PerformingLabCode": "SUNQUEST-001",
+          "TestCode": "H-23G",
+          "Result": [
+            {
+              "ResultData": "disponible en powerpath + resultados",
+              "ResultedTechCode": "H-231G",
+              "ResultedTime": "30/01/2017 21:00",
+              "ExternalQAFlags": "BANDERAS EXTERNAS"
+            },
+            {
+              "ResultData": "Normal",
+              "ResultedTechCode": "H-23G",
+              "ResultedTime": "30/01/2017 11:00",
+              "ExternalQAFlags": null
+            }
+          ]
+        },
+        {
+        
+		  "AccessionNumber": "H980",
+          "TestName": "ANÁLISIS DEL TEJIDO CEREBRAL 00G",
+		  "NormalRange": "[16-400]",
+          "Units": null,
+          "Callback": "llamar de vuelta",
+          "PerformingLabCode": "[Bbc02]",
+          "TestCode": "H-23G",
+          "Result": 
+          [
+            {
+              "ResultData": "Pendiente...",
+              "ResultedTechCode": "H-23G",
+              "ResultedTime": "30/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "<u>No se pueden obtener los resultados</u>",
+              "ResultedTechCode": "1002",
+              "ResultedTime": "1003",
+              "ExternalQA": "1004"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

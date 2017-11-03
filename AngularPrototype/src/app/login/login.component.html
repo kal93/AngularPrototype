@@ -1,0 +1,72 @@
+<!--
+  This file is designed to display Login page
+    -Valid user credentials navigates to search page
+    -Invalid user credentials shows error message
+-->
+<div>
+    <!-- Start of company image Section -->
+    <div class="login-page-section">
+        <div class="company-image">
+            <img src={{companyImage}} />
+        </div>
+    </div>
+    <!-- End of company image Section -->
+    <!-- Start of user login page Section -->
+    <div class="login-page-section">
+        <form [formGroup]="loginForm" novalidate class="login-form-style">
+            <!-- Start of user details Section -->
+            <div class="login-section">
+                <!-- Header for the application name -->
+                <!-- Get Application name in English from app.config and for other language get it from respective xlf file. -->
+                <h2> {{applicationName}}</h2>
+                <div class="login-form-section">
+                    <!-- Placeholder for User Name -->
+                    <md-input-container class="user-input-element">
+                        <input mdInput type="text" placeholder="User Name" required formControlName="username" i18n-placeholder="userName|Place holder text for User name field@@userNamePlaceholder">
+                        <md-error>{{usernameRequired}}</md-error>
+                    </md-input-container>
+                    <!-- Placeholder for User password -->
+                    <md-input-container class="user-input-element">
+                        <input mdInput type="password" placeholder="Password" required formControlName="password" i18n-placeholder="password|Place holder text for password field@@passWordPlaceholder">
+                    </md-input-container>
+                    <!-- To select Host system for the user -->
+                    <md-select placeholder="Select Host System" name="host" (change)="setHostandRoles()" class="user-input-element" formControlName="hostSystem" required
+                               i18n-placeholder="selectHostSystem|Place holder text for Select Host System field@@selectHostSystemPlaceholder">
+                        <md-option *ngFor="let host of hostSystems" [value]="host.Name">
+                            {{host.Name}}
+                        </md-option>
+                    </md-select>
+                    <!--To select Host role for the user-->
+                    <md-select placeholder="Select Host Role" name="role" (change)="setHostandRoles()" class="user-input-element" formControlName="hostRole" required
+                               i18n-placeholder="selectHostRole|Place holder text for Select Host Role field@@selectHostRolePlaceholder">
+                        <md-option *ngFor="let hostRole of hostRoles" [value]="hostRole.Role">
+                            {{hostRole.Role}}
+                        </md-option>
+                    </md-select>
+                    <!-- Section for login clear buttons -->
+                    <div class="login-clear-section">
+                        <button md-raised-button class="sq-btn btn-primary" (click)="login()" [disabled]="isLoginDisable">
+                            <span *ngIf="isLoginShowActionIcon"><i class="fa fa-spinner fa-pulse fa-fw loginLoader"></i></span>
+                            {{loginButtonText}}
+                        </button>
+                        <button md-raised-button class="sq-btn btn-secondary" (click)="clear()" [disabled]="isClearDisable">
+                            {{clearButtonText}}
+                        </button>
+                    </div>
+                    <div class="login-validation-message">
+                        <span class="error-message-section">
+                            <md-error *ngIf="loginFormErrorMessage">
+                                <i class="fa fa-exclamation-circle"></i>
+                                {{loginFormErrorMessage}}
+                            </md-error>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- End of user details Section -->
+        </form>
+    </div>
+    <!--End of Login Form Section-->
+</div>
+
+

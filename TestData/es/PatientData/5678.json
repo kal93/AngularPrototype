@@ -1,0 +1,142 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "VECTOR",
+		"Gender": "M",
+		"NHS": "324000654",
+		"PIDX": "78912",
+		"AkaName": "john vector",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "GJJ",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, VECTOR"
+	},
+  "Accession": [
+    {
+      "AccessionNumber": "H126",
+      "PIDX": "78912",
+      "SpecimenDetails": "EXTRACTO DE LOS DIENTES",
+      "OrderLocation": "COPATH LABORATORIO",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "HARRY STYLES",
+      "Test": [
+        {
+          "AccessionNumber": "H126",
+          "TestName": "PRUEBA DE CAVIDAD 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "llamar de vuelta",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>llamar de vuelta</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H637",
+      "PIDX": "78912",
+      "SpecimenDetails": "Hueso del collar",
+      "OrderLocation": "COPATH LABORATORIO",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "NIAL HORRAN",
+      "Test": [
+        {
+          "AccessionNumber": "H637",
+          "TestName": "PRUEBA DE CALCIO ÓSEO 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "llamar de vuelta",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>llamar de vuelta</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "COPATH+",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "POWERPATH+",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "llamar de vuelta",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H35",
+      "PIDX": "78912",
+      "SpecimenDetails": "Hueso del collar",
+      "OrderLocation": "COPATH LABORATORIO",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "NIAL HORRAN",
+      "Test": [
+        {
+      "AccessionNumber": "H35",
+      "TestName": "PRUEBA DE CALCIO DE DIENTES 00G",
+      "Units": null,
+      "NormalRange": null,
+      "Callback": "llamar de vuelta",
+      "PerformingLabCode": "[A421]",
+      "TestCode": "H-23G1",
+      "Result": [
+        {
+          "ResultData": "<u>llamar de vuelta</u>",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "COPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "POWERPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "llamar de vuelta",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        }
+      ]
+    }
+  ]
+		}
+
+	]
+}

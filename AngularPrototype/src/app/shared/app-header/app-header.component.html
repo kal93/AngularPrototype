@@ -1,0 +1,61 @@
+<!--Start of Side Navigation Section-->
+<md-sidenav-container class="sq-sidenav-container">
+    <md-sidenav #sqSidenav>
+        <md-toolbar>
+            <md-toolbar-row *ngFor="let tabItem of headerSettings.tabList"
+                            class="sq-sidenav-tab-list"
+                            [ngClass]="{'sq-hide':tabItem.isVisible ===false}">
+                <span [routerLink]="tabItem.path"
+                      routerLinkActive="sq-link-active"
+                      #rla="routerLinkActive">{{tabItem.name}}</span>
+            </md-toolbar-row>
+            <md-toolbar-row class="sq-sidenav-login-details">
+                <span [mdMenuTriggerFor]="userInfoMenu">
+                    <i class="fa fa-user"></i>
+                    <span class="sq-user-name">{{headerSettings.loggedInUser}}</span>
+                    <i class="fa fa-caret-down"></i>
+                </span>
+                <md-menu #userInfoMenu [overlapTrigger]="false">
+                    <div *ngFor="let menuItem of headerSettings.menuList" md-menu-item>{{menuItem.name}}</div>
+                </md-menu>
+            </md-toolbar-row>
+        </md-toolbar>
+    </md-sidenav>
+</md-sidenav-container>
+<!--End of Side Navigation Section-->
+<!--Start of Header Section-->
+<nav md-tab-nav-bar class="sq-header">
+    <span class="sq-sidenav-menu" (click)="sqSidenav.open()">
+        <i class="fa fa-bars"></i>
+    </span>
+    <span>
+        <img class="sq-logo" src="{{headerSettings.companyLogo}}" alt="Sunquest">
+    </span>
+    <span class="sq-app-name">{{headerSettings.appName}}</span>
+    <span class="sq-tab-list" md-tab-link
+          *ngFor="let tabItem of headerSettings.tabList"
+          [ngClass]="{'sq-hide':tabItem.isVisible ===false}"
+          [routerLink]="tabItem.path"
+          routerLinkActive="sq-link-active"
+          #rla="routerLinkActive"
+          [active]="rla.isActive">
+        {{tabItem.name}}
+    </span>
+    <span class="sq-login-details" [mdMenuTriggerFor]="userInfoMenu">
+        <span>
+            {{headerSettings.hostSystem}}
+            <sup class="sq-name-space">{{headerSettings.nameSpace}}</sup>
+        </span>
+        <span class="sq-seperator">|</span>
+        <span>
+            <i class="fa fa-user"></i>
+            <span class="sq-user-name">{{headerSettings.loggedInUser}}</span>
+            <i class="fa fa-caret-down"></i>
+        </span>
+    </span>
+    <md-menu #userInfoMenu [overlapTrigger]="false">
+        <div *ngFor="let menuItem of headerSettings.menuList"
+             md-menu-item (click)="onClickHandler(menuItem.name)">{{menuItem.name}}</div>
+    </md-menu>
+</nav>
+<!--End of Header Section-->

@@ -1,0 +1,64 @@
+﻿/*=======MD Styles Override Start=======*/
+.mat-focused .mat-input-placeholder {
+    color: #1c92c1;
+}
+
+.mat-focused .mat-input-underline .mat-input-ripple {
+    background-color: #1c92c1;
+}
+
+.mat-checkbox-checked .mat-checkbox-background {
+    /*Used '!important' to override MD-Styles*/
+    background-color: #1c92c1 !important;
+}
+
+.mat-pseudo-checkbox-checked {
+    background: #1c92c1 !important;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-trigger {
+    color: #1c92c1;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+    background-color: #1c92c1;
+}
+
+.mat-primary .mat-option.mat-selected {
+    color: #1c92c1;
+}
+
+.mat-calendar-body-selected {
+    background-color: #1c92c1;
+}
+
+.mat-spinner path {
+    stroke: #1c92c1;
+}
+/*=======MD Styles Override End=======*/
+
+/*=======Button Styles Override Start=======*/
+.btn-primary {
+    background: #1c92c1;
+}
+
+    .btn-primary:hover, .btn-primary.hover,
+    .btn-primary:focus, .btn-primary.focus {
+        background: #62a8c4;
+    }
+
+    .btn-primary:active, .btn-primary.active {
+        background: #136485;
+    }
+
+    .sq-btn:disabled, .sq-btn.disabled,
+    .btn-primary:disabled, .btn-primary.disabled,
+    .btn-secondary:disabled, .btn-secondary.disabled {
+        background: #d5d5d9;
+    }
+
+.btn-secondary {
+    /*Used '!important' to override MD-Styles*/
+    color: #1c92c1 !important;
+}
+/*=======Button Styles Override End=======*/

@@ -1,0 +1,109 @@
+﻿{
+  "ApplicationName": "Hasta Soruşturma",
+  "NameSpace": "(DEVLAB)",
+  "ExitMenu": "çıkış",
+  "DarkThemeMenu": "Karanlık tema",
+  "DefaultThemeMenu": "Varsayılan Tema",
+  "Search": "Arama",
+  "Results": "Sonuçlar",
+  "Admin": "yönetim",
+
+  "LoginFailed": "Giriş başarısız. Lütfen Yönetici ile iletişime geçin.",
+  "IncorrectCredentials": "Kullanıcı adı veya şifre doğru değil. Lütfen tekrar deneyin !",
+  "UsernameRequired": "Kullanıcı Adı gerekiyor",
+  "LoginButtonText": "Oturum aç",
+
+  "FirstNameRequired": "Orta Ad ile İlk Ad Gerekiyor",
+  "EnterValidDate": "Lütfen geçerli tarihi girin",
+  "CheckAll": "Hepsini Kontrol Edin",
+  "DefaultHID": "Varsayılan olarak yalnızca HID",
+  "ClearButtonText": "Açık",
+  "ShowToggleText": "Arama Kriterlerini Göster",
+  "HideToggleText": "Arama Kriterlerini Gizle",
+  "PatientListErrorMessage": "Hasta listesini görüntülemek için bir arama yapın",
+
+  "SearchActionText": "Arama...",
+  "SearchFormErrorMessage": "Devam etmeden önce lütfen güncelleyin",
+  "NoPatientList": "Belirtilen kriterlere uyan hiçbir hasta bulunamadı. Yeni bir arama değeri girin",
+
+  "PatientListTitle": "Hasta Listesi",
+  "ShowResultsButtonText": "Sonuçları göster",
+
+  "Update": "Güncelleştirme",
+  "UpdateActionText": "Güncelleniyor ...",
+  "NoPatientIDSelected": "Hiçbir hasta seçilmedi. Lütfen geri dön",
+  "ShowAll": "Tümünü göster",
+  "HideAll": "Hepsini sakla",
+  "UnsavedChangesMessage": "Kaydedilmemiş değişiklikleriniz var. Yönlendirmek istediğinizden emin misiniz?",
+  "UpdateFailed": "Sonucu Güncelleme Başarısız Oldu",
+  "UpdateSuccess": "Sonuç Başarıyla güncellendi",
+  "PatientID": "Hasta Kimliği",
+  "Dob": "DOB",
+  "Gender": "Cinsiyet",
+  "NHS": "NHS",
+  "HID": "HID",
+
+  "UpdateUserTitle": "Kullanıcıları Güncelle",
+  "NameMandatory": "Ad gerekli",
+  "UsernameMandatory": "Kullanıcı Adı gerekiyor",
+  "UserPermission": "Kullanıcı Görüntüleyebilir",
+  "SuppressedResults": "Bastırılmış Sonuçlar",
+  "SensitiveData": "Hassas veri",
+  "CancelButtonText": "İptal etmek",
+  "UserUpdateFailed": "Kullanıcı Güncellemesi Başarısız Oldu",
+
+  "adduserButtonTextUserList": "Kullanıcı Ekle",
+  "userListHeaderText": "Kullanıcıları Yönet",
+
+
+  "userAddedMessage": "Kullanıcı Eklendi",
+  "addUserButtonText": "Eklemek",
+  "addUserHeaderText": "Kullanıcı Ekle",
+  "updateAction": "kullanıcıyı güncelle",
+  "addAction": "kullanıcı Ekle",
+
+  "OkButtonText": "Tamam",
+  "PatientListHeaders": {
+    "Name": "Hasta adı",
+    "PIDX": "Hasta Kimliği",
+    "HospitalCode": "HID",
+    "NHS": "NHS No.",
+    "BirthDateText": "Doğum tarihi",
+    "Gender": "Seks",
+    "MPI": "MPI",
+    "AkaName": "AKA",
+    "DateOfLastActivityText": "son Aktivite"
+  },
+  "ResultsMasterGridHeaders": {
+    "Name": "isim",
+    "AccessionNumber": "Erişim numarası",
+    "CollectDate": "Tarihi topla",
+    "RecieveDate": "Alma Tarihi",
+    "OrderAccountNo": "Sipariş Hesabı #",
+    "OrderLocation": "Sipariş Yeri",
+    "OrderingPhysician": "Hekim Sipariş Edin"
+  },
+  "ResultsDetailGridHeaders": {
+    "TestName": "Test Adı",
+    "ExternalQAFlags": "Harici KG Flama Bayrakları",
+    "ResultData": "Test sonuçları",
+    "Range": "Normal aralık",
+    "Units": "Birimler",
+    "CallBackFlag": "BackFlag'u Çağır",
+    "ResultedTechCode": "Teknik Kod",
+    "PerformingLabCode": "LabCode Yapma",
+    "PriorityCode": "Öncelik Kodu",
+    "ResultedTime": "Sonuç Zamanı"
+  },
+  "UserListHeaders": {
+    "Name": "isim",
+    "UserName": "Kullanıcı adı",
+    "UserDescription": "Kullanıcı açıklaması",
+    "Edit": "Düzenleme",
+    "HostSystem": "Ana Bilgisayar Sistemi",
+    "HostRole": "Ana Bilgisayar Rolü",
+    "Permissions": "Rol İzinleri",
+    "Password": "Parola"
+  }
+
+}

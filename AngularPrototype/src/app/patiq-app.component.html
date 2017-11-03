@@ -1,0 +1,4 @@
+<!--Application Header-->
+<sq-app-header *ngIf="showHeader" [headerSettings]="appHeaderSettings" (menuItemClick)='menuClickHandler($event)'></sq-app-header>
+<!--Placeholder for current router state-->
+<router-outlet></router-outlet>

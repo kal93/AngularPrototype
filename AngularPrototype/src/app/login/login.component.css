@@ -1,0 +1,77 @@
+/* 
+       Stylesheet for Login page
+*/
+
+/* Styles for user login div placeholder */
+.login-form-section {
+    display: -ms-inline-grid; /*Only for IE and Edge*/
+    display: inline-block;
+    padding: 0% 8% 0 0%;
+}
+/* Styles for Login section with Application name */
+.login-section {
+    margin: 7% 0 0 37%;
+}
+
+/* Styles for all elements placed inside md-input container */
+.user-input-element {
+    margin: 10% 0 10% 0;
+}
+
+/*=======MD Styles Override Start=======*/
+.mat-input-container {
+    display: block; /*Override to display the form fields one by one in IE and Edge*/
+}
+/* Style to override select styles for Host systems and Host roles */
+.mat-select {
+    padding-bottom: 8%;
+    display: block;
+}
+/*=======MD Styles Override End=======*/
+
+/* Styles for two sections in login page Image section and User login form section*/
+.login-page-section {
+    display: inline-block;
+    padding: 1% 5% 0 2%;
+    margin: 6% 0 0 2%;
+    min-width: 476px;
+}
+/* Styles login page brand Image */
+.company-image {
+    position: relative;
+    top: -160px;
+}
+/* Styles login form */
+.login-form-style {
+    border-left: 1px solid #1c92c1;
+}
+
+/* Styles for login and clear buttons section */
+.login-clear-section {
+    display: flex;
+}
+/* Styles for login validation message section */
+.login-validation-message {
+    padding-top: 10%;
+}
+
+/* Media queries for login page brand Image section and login form */
+@media screen and (min-width:150px) and (max-width: 1279PX) {
+    .company-image {
+        position: inherit;
+    }
+
+    .login-page-section {
+        min-width: 400px;
+    }
+
+    .login-form-style {
+        border-left: none;
+    }
+}
+/* Styles for big screens*/
+@media screen and (max-width:1394px) {
+    .login-page-section {
+        min-width: 420px;
+    }
+}

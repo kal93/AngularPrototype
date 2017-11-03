@@ -1,0 +1,108 @@
+﻿{
+  "ApplicationName": "Consulta del Paciente",
+  "NameSpace": "(DEVLAB)",
+  "ExitMenu": "Salida",
+  "DarkThemeMenu": "Tema oscuro",
+  "DefaultThemeMenu": "Tema predeterminado",
+  "Search": "Buscar",
+  "Results": "Resultados",
+  "Admin": "Administración",
+
+  "LoginFailed": "Error de inicio de sesion. Póngase en contacto con Administrator",
+  "IncorrectCredentials": "El nombre de usuario o la contraseña no son correctos. Por favor, inténtelo de nuevo!",
+  "UsernameRequired": "Se requiere nombre de usuario",
+  "LoginButtonText": "Iniciar sesión",
+
+  "FirstNameRequired": "Nombre requerido con el segundo nombre",
+  "EnterValidDate": "Ingrese una fecha válida",
+  "CheckAll": "Compruebe todo",
+  "DefaultHID": "Por defecto HID Only",
+  "ClearButtonText": "Claro",
+  "ShowToggleText": "Mostrar criterios de búsqueda",
+  "HideToggleText": "Ocultar los criterios de búsqueda",
+  "PatientListErrorMessage": "Realizar una búsqueda para ver la lista de pacientes",
+
+  "SearchActionText": "Buscando...",
+  "SearchFormErrorMessage": "Actualice antes de continuar",
+  "NoPatientList": "No se encontraron pacientes que cumplan con los criterios especificados. Introduzca un nuevo valor de búsqueda",
+
+  "PatientListTitle": "Lista de Pacientes",
+  "ShowResultsButtonText": "Mostrar resultados",
+
+  "Update": "Actualizar",
+  "UpdateActionText": "Actualizar",
+  "NoPatientIDSelected": "No se seleccionaron pacientes. Por favor, vuelve a",
+  "ShowAll": "Mostrar todo",
+  "HideAll": "Ocultar todo",
+  "UnsavedChangesMessage": "Tiene cambios sin guardar. ¿Está seguro de que desea redirigir?",
+  "UpdateFailed": "Error en la actualización de los resultados",
+  "UpdateSuccess": "Resultado Actualizado con éxito",
+  "PatientID": "ID del paciente",
+  "Dob": "DOB",
+  "Gender": "Género",
+  "NHS": "NHS",
+  "HID": "HID",
+
+  "UpdateUserTitle": "Actualizar usuarios",
+  "NameMandatory": "Se requiere el nombre",
+  "UsernameMandatory": "Se requiere nombre de usuario",
+  "UserPermission": "El usuario puede ver",
+  "SuppressedResults": "Resultados suprimidos",
+  "SensitiveData": "Informacion delicada",
+  "CancelButtonText": "Cancelar",
+  "UserUpdateFailed": "Error de actualización de usuario",
+
+  "adduserButtonTextUserList": "Agregar usuario",
+  "userListHeaderText": "Administrar usuarios",
+
+
+  "userAddedMessage": "Usuario agregado",
+  "addUserButtonText": "Añadir",
+  "addUserHeaderText": "Agregar usuario",
+  "updateAction": "actualizar usuario",
+  "addAction": "agregar usuario",
+
+  "OkButtonText": "De acuerdo",
+  "PatientListHeaders": {
+    "Name": "Nombre del paciente",
+    "PIDX": "ID del paciente",
+    "HospitalCode": "HID",
+    "NHS": "NHS No.",
+    "BirthDateText": "Fecha de nacimiento",
+    "Gender": "Sexo",
+    "MPI": "MPI",
+    "AkaName": "AKA",
+    "DateOfLastActivityText": "Última actividad"
+  },
+  "ResultsMasterGridHeaders": {
+    "Name": "Nombre",
+    "AccessionNumber": "Número de acceso",
+    "CollectDate": "Fecha de recolección",
+    "RecieveDate": "Fecha de recepción",
+    "OrderAccountNo": "Cuenta de pedido",
+    "OrderLocation": "Ubicación de la orden",
+    "OrderingPhysician": "Orden médico"
+  },
+  "ResultsDetailGridHeaders": {
+    "TestName": "Nombre de la prueba",
+    "ExternalQAFlags": "Banderas QA externas",
+    "ResultData": "Resultados de la prueba",
+    "Range": "Rango normal",
+    "Units": "Unidades",
+    "CallBackFlag": "Llamar a BackFlag",
+    "ResultedTechCode": "Código de tecnología",
+    "PerformingLabCode": "Realización de LabCode",
+    "PriorityCode": "Código de prioridad",
+    "ResultedTime": "Tiempo Resuelto"
+  },
+  "UserListHeaders": {
+    "Name": "Name",
+    "UserName": "Nombre de usuario",
+    "UserDescription": "Descripción de usuario",
+    "Edit": "Editar",
+    "HostSystem": "Sistema Host",
+    "HostRole": "Función del anfitrión",
+    "Permissions": "Permisos de rol",
+    "Password": "Contraseña"
+  }
+}

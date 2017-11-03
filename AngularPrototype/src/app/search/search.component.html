@@ -1,0 +1,118 @@
+<!--Start of Search Form Section-->
+<form [hidden]="isSearchFormVisible" [formGroup]="searchForm" novalidate>
+    <!--Section to display input boxes (LastName,FirstName,MiddleName and PatientID) -->
+    <div class="search-field-section">
+        <md-input-container>
+            <input mdInput type="text" placeholder="Last Name" tabindex="1" maxlength="20" formControlName="lastName"
+                   i18n-placeholder="lastName|Place holder text for lastName field @@lastNamePlaceholder">
+        </md-input-container>
+        <md-input-container>
+            <input mdInput type="text" placeholder="First Name" tabindex="2" maxlength="20" formControlName="firstName"
+                   i18n-placeholder="firstName|Place holder text for firstName field @@firstNamePlaceholder">
+        </md-input-container>
+        <md-input-container>
+            <input mdInput type="text" placeholder="Middle Name" tabindex="3" maxlength="20" formControlName="middleName"
+                   i18n-placeholder="middleName|Place holder text for middleName field @@middleNamePlaceholder">
+            <md-error>
+                {{firstNameIsRequiredText}}
+            </md-error>
+        </md-input-container>
+        <md-input-container>
+            <input mdInput type="text" placeholder="Patient Id" tabindex="4" maxlength="20" formControlName="patientId"
+                   i18n-placeholder="patientId|Place holder text for patientId field @@patientIdPlaceholder">
+        </md-input-container>
+    </div>
+    <!--End of section -->
+    <!--Section to display input boxes (NHS No,Date of Birth,Billing Account No and MPI) -->
+    <div class="search-field-section">
+        <md-input-container>
+            <input mdInput type="text" placeholder={{nhsOrssn}}
+                   tabindex="5" maxlength="10"
+                   formControlName="nhsNo"
+                   i18n-placeholder="nhsNo|Place holder text for nhsNo field @@nhsNoPlaceholder">
+        </md-input-container>
+        <md-input-container>
+            <input mdInput type="text" [mdDatepicker]="dob" placeholder="Date Of Birth" tabindex="6"
+                   formControlName="dob" (blur)="dobOnBlur()" [validateDateFormat]="dateFormat"
+                   i18n-placeholder="dob|Place holder text for dob field @@dobPlaceholder">
+            <button mdSuffix [mdDatepickerToggle]="dob"></button>
+            <md-error>
+                {{validDateText}}
+            </md-error>
+        </md-input-container>
+        <md-datepicker #dob></md-datepicker>
+        <md-input-container>
+            <input mdInput type="text" placeholder="Billing Account No"
+                   tabindex="7" maxlength="20"
+                   formControlName="billAccount"
+                   i18n-placeholder="billAccount|Place holder text for billAccount field @@billAccountPlaceholder">
+        </md-input-container>
+        <md-input-container *ngIf="showMPI">
+            <input mdInput type="text" placeholder="MPI"
+                   tabindex="8" maxlength="20"
+                   formControlName="mpi"
+                   i18n-placeholder="mpi|Place holder text for mpi field @@mpiPlaceholder">
+        </md-input-container>
+    </div>
+    <!--End of section -->
+    <!--Section to display checkboxes -->
+    <div class="search-field-section">
+        <div class="select-all-section">
+            <md-checkbox tabindex="9"
+                         formControlName="checkAll" (click)="checkAllHids()">
+                {{checkAllText}}
+            </md-checkbox><br />
+            <md-checkbox tabindex="10"
+                         formControlName="defaultHidCheck" (click)="checkDefaultHid()">
+                {{defaultHidText}}
+            </md-checkbox>
+        </div>
+    </div>
+    <!--End of section -->
+    <!--Section to display HID Listbox -->
+    <div class="search-field-section filter-hid-section">
+        <md-select placeholder="Filter HID(s)" multiple tabindex="11"
+                   formControlName="selectedHids" (change)="selectHid()"
+                   i18n-placeholder="selectedHids|Place holder text for selectedHids field@@selectedHidsPlaceholder">
+            <md-option *ngFor="let hid of hids" [value]="hid">
+                {{hid}}
+            </md-option>
+        </md-select>
+    </div>
+    <!--End of section -->
+    <!--Section to Form Error Message, Search and Clear buttons -->
+    <div class="perform-search-section">
+        <span class="error-message-section">
+            <md-error *ngIf="searchFormErrorMessage">
+                <i class="fa fa-exclamation-circle"></i>
+                {{searchFormErrorMessage}}
+            </md-error>
+        </span>
+        <div>
+            <button md-raised-button class="sq-btn btn-secondary" tabindex="12"
+                    (click)="performClear()"
+                    [disabled]="isClearDisable">
+                {{clearText}}
+            </button>
+            <button md-raised-button class="sq-btn btn-primary" tabindex="13"
+                    (click)="performSearch()"
+                    [disabled]="isSearchDisable">
+                <span *ngIf="isSearchShowActionIcon"><i class="fa fa-spinner fa-pulse fa-fw loginLoader"></i></span>
+                {{isSearchShowActionIcon ? searchActionText: searchText}}
+            </button>
+        </div>
+    </div>
+    <!--End of section -->
+</form>
+<!--End of Search Form Section-->
+<!--Show/Hide Search Form-->
+<div class="toggle-search">
+    <span (click)="isSearchFormVisible=!isSearchFormVisible">
+        <i class="fa fa-chevron-up" [ngClass]="{'toggle-chevron-icon':isSearchFormVisible}"></i>
+        <span>{{isSearchFormVisible? showToggleText:hideToggleText}}</span>
+        <i class="fa fa-chevron-up" [ngClass]="{'toggle-chevron-icon':isSearchFormVisible}"></i>
+    </span>
+</div>
+<hr />
+<!--Added Patient List Component-->
+<patiq-patient-lists [patientListSettings]="currentPatientListModel"></patiq-patient-lists>

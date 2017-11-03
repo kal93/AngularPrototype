@@ -1,0 +1,31 @@
+
+
+<!--
+  This file is designed to display application user’s grid
+  Update the users by clicking edit icon in edit column of grid
+  A snackbar(mdSnackBar) displays once user is updated from manage-users screen on bottom of the page
+-->
+<!-- Header text for user’s grid -->
+<div class="manage-users-header">{{userListHeaderText}}</div>
+<div class="add-section">
+    
+    <button md-raised-button class="sq-btn btn-primary" (click)="goToAddUser()">
+        {{addUserButtonText}}
+    </button>
+</div>
+<!-- Start of user’s grid Section -->
+<div class="users-grid-div">
+   <ag-grid-angular class="ag-material users-main-grid"
+                         rowHeight="48"
+                         headerHeight="56"
+                         [gridOptions]="userListGridOptions"
+                         [rowData]="userListData"
+                         enableSorting
+                         animateRows
+                         suppressRowClickSelection>
+        </ag-grid-angular>
+    </div>
+
+<!--End of user’s grid Section-->
+<!--Placeholder for router state-->
+<router-outlet></router-outlet>

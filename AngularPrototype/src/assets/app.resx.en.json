@@ -1,0 +1,109 @@
+﻿{
+  "ApplicationName": "Patient Inquiry",
+  "NameSpace": "(DEVLAB)",
+  "ExitMenu": "Exit",
+  "DarkThemeMenu": "Dark Theme",
+  "DefaultThemeMenu": "Default Theme",
+  "Search": "Search",
+  "Results": "Results",
+  "Admin": "Admin",
+
+  "LoginFailed": "Login failed. Please contact Administrator",
+  "IncorrectCredentials": "The username or password not correct.  Please try again !",
+  "UsernameRequired": "User Name is required",
+  "LoginButtonText": "Login",
+
+  "FirstNameRequired": "First Name required with Middle Name",
+  "EnterValidDate": "Please enter valid date",
+  "CheckAll": "Check All",
+  "DefaultHID": "By Default HID Only",
+  "ClearButtonText": "Clear",
+  "ShowToggleText": "Show Search Criteria",
+  "HideToggleText": "Hide Search Criteria",
+  "PatientListErrorMessage": "Perform a search to view patient list",
+
+  "SearchActionText": "Searching...",
+  "SearchFormErrorMessage": "Please update before continuing",
+  "NoPatientList": "No patients found that match the specified criteria. Enter a new search value",
+
+  "PatientListTitle": "Patient List",
+  "ShowResultsButtonText": "Show Results",
+
+  "Update": "Update",
+  "UpdateActionText": "Updating...",
+  "NoPatientIDSelected": "No patients selected. Please go back to ",
+  "ShowAll": "Show All",
+  "HideAll": "Hide All",
+  "UnsavedChangesMessage": "You have unsaved changes. Are you sure you want to redirect?",
+  "UpdateFailed": "Result Update Failed  ",
+  "UpdateSuccess": "Result Updated successfully ",
+  "PatientID": "Patient ID",
+  "Dob": "DOB",
+  "Gender": "Gender",
+  "NHS": "NHS",
+  "HID": "HID",
+  "SSN": "SSN",
+
+  "UpdateUserTitle": "Update Users",
+  "NameMandatory": "Name is required",
+  "UsernameMandatory": "User Name is required",
+  "UserPermission": "User Can View",
+  "SuppressedResults": "Suppressed Results",
+  "SensitiveData": "Sensitive Data",
+  "CancelButtonText": "Cancel",
+  "UserUpdateFailed": "User Update Failed",
+
+  "adduserButtonTextUserList": "Add User",
+  "userListHeaderText": "Manage Users",
+
+
+  "userAddedMessage": "User Added",
+  "addUserButtonText": "Add",
+  "addUserHeaderText": "Add User",
+  "updateAction": "update user",
+  "addAction": "add user",
+
+  "OkButtonText": "Ok",
+  "PatientListHeaders": {
+    "Name": "Patient Name",
+    "PIDX": "Patient ID",
+    "HospitalCode": "HID",
+    "NHS": "NHS No.",
+    "BirthDateText": "Date of Birth",
+    "Gender": "Sex",
+    "MPI": "MPI",
+    "AkaName": "AKA",
+    "DateOfLastActivityText": "Last Activity"
+  },
+  "ResultsMasterGridHeaders": {
+    "Name": "Name",
+    "AccessionNumber": "Accession Number",
+    "CollectDate": "Collect Date",
+    "RecieveDate": "Receive Date",
+    "OrderAccountNo": "Order Account#",
+    "OrderLocation": "Order Location",
+    "OrderingPhysician": "Order Physician"
+  },
+  "ResultsDetailGridHeaders": {
+    "TestName": "Test Name",
+    "ExternalQAFlags": "External QA Flags",
+    "ResultData": "Test Results",
+    "Range": "Normal Range",
+    "Units": "Units",
+    "CallBackFlag": "Call BackFlag",
+    "ResultedTechCode": "Tech Code",
+    "PerformingLabCode": "Performing LabCode",
+    "PriorityCode": "Priority Code",
+    "ResultedTime": "Resulted Time"
+  },
+  "UserListHeaders": {
+    "Name": "Name",
+    "UserName": "Username",
+    "UserDescription": "User description",
+    "Edit": "Edit",
+    "HostSystem": "Host System",
+    "HostRole": "Host Role",
+    "Permissions": "Role Permissions",
+    "Password": "Password"
+  }
+}

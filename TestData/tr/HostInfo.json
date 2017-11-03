@@ -1,0 +1,24 @@
+{
+  "HostSystems": [
+    {
+      "Name": "laboratuvar"
+    },
+    {
+      "Name": "Copath"
+    }
+  ],
+  "HostRoles": [
+    {
+      "Role": "eleştirmen"
+    },
+    {
+      "Role": "adam"
+    },
+    {
+      "Role": "yönetici"
+    },
+    {
+      "Role": "Patolog"
+    }
+  ]
+}

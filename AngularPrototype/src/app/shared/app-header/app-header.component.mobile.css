@@ -1,0 +1,43 @@
+﻿/* Styles for Tablets and Mobile Start*/
+@media screen and (min-width:641px) and (max-width: 768px) {
+    .sq-sidenav-menu {
+        display: inline;
+    }
+
+    .sq-tab-list {
+        display: none;
+    }
+
+    .sq-login-details {
+        display: inline;
+    }
+
+    .sq-sidenav-login-details.mat-toolbar-row {
+        display: none;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .sq-sidenav-menu {
+        display: inline-block;
+    }
+
+    .sq-tab-list {
+        display: none;
+    }
+
+    .sq-login-details {
+        display: none;
+    }
+
+    .sq-sidenav-login-details.mat-toolbar-row {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:346px) {
+    .sq-app-name {
+        display: block;
+    }
+}
+/* Styles for Tablets and Mobile End*/

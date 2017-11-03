@@ -1,0 +1,48 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "CRAIG",
+		"Gender": "M",
+		"NHS": "378214782",
+		"PIDX": "23410",
+		"AkaName": "DENIAL CRAIG",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2017",
+		"HospitalCode": "HID1",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, STYLES"
+	},
+  "Accession": [
+    {
+      "AccessionNumber": "H7861",
+      "PIDX": "23410",
+      "SpecimenDetails": "NAIL SAMPLE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2017 07:09",
+      "RecieveDate": "03/11/2017 10:09",
+      "OrderingPhysician": "ZAYN WATER",
+      "Test": [
+        {
+          "AccessionNumber": "H7861",
+          "TestName": "KEL TEST 00G",
+          "Units": "[ MG ]",
+          "NormalRange": "[09-90]",
+          "Callback": "53464",
+          "PerformingLabCode": "[A1]",
+          "TestCode": "H-21",
+          "Result": [
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-21",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    }
+
+	]
+}

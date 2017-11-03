@@ -1,0 +1,142 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "VECTOR",
+		"Gender": "M",
+		"NHS": "324000654",
+		"PIDX": "78912",
+		"AkaName": "john vector",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "GJJ",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, VECTOR"
+	},
+  "Accession": [
+    {
+      "AccessionNumber": "H126",
+      "PIDX": "78912",
+      "SpecimenDetails": "DİŞ ÇEKİMİ",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "08/11/2016 07:24",
+      "RecieveDate": "08/11/2016 09:54",
+      "OrderingPhysician": "HARRY STYLES",
+      "Test": [
+        {
+          "AccessionNumber": "H126",
+          "TestName": "DİŞ ÇEKİMİ ÖLÇEK 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>buraya Tıkla...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H637",
+      "PIDX": "78912",
+      "SpecimenDetails": "köprücük kemiği",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "NIAL HORRAN",
+      "Test": [
+        {
+          "AccessionNumber": "H637",
+          "TestName": "KEMİK KALSİYUM TESTİ 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>buraya Tıkla...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "COPATH+",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "POWERPATH+",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "buraya Tıkla...",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H35",
+      "PIDX": "78912",
+      "SpecimenDetails": "YARIM KEMİĞİ",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "05/11/2016 07:32",
+      "RecieveDate": "05/11/2016 09:43",
+      "OrderingPhysician": "NIAL HORRAN",
+      "Test": [
+        {
+      "AccessionNumber": "H35",
+      "TestName": "DİŞ KALSİYUM TEST 00G",
+      "Units": null,
+      "NormalRange": null,
+      "Callback": "gsdgf",
+      "PerformingLabCode": "[A421]",
+      "TestCode": "H-23G1",
+      "Result": [
+        {
+          "ResultData": "<u>buraya Tıkla...</u>",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "COPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "POWERPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "buraya Tıkla...",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        }
+      ]
+    }
+  ]
+		}
+
+	]
+}

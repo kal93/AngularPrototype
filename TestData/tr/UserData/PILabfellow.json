@@ -1,0 +1,12 @@
+﻿{
+  "DateFormat": "MM/DD/YYYY",
+  "HidList": [
+    "HID1",
+    "HID2",
+    "HID3",
+    "HID4",
+    "HID5",
+    "GJJ"
+  ],
+  "DefaultHid": "GJJ"
+}

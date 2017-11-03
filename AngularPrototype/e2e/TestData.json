@@ -1,0 +1,91 @@
+﻿{
+
+  "Common": [
+    {
+      "TestURL": [
+        "http://sqivf-test/PatientInquiryPrototype/#/login",
+        "http://sqivf-test/PatientInquiryPrototype/#/search",
+        "http://sqivf-test/PatientInquiryPrototype/#/results",
+        "http://sqivf-test/PatientInquiryPrototype/#/admin"
+      ]
+    }
+  ],
+
+  "Search": [
+    {
+      "LastName": [
+        "simpson",
+        "GELLER"
+
+      ],
+      "FirstName": [
+
+      ],
+      "MiddleName": [
+
+      ],
+      "PatientID": [
+
+      ],
+      "NHSnumber": [
+
+      ],
+      "BirthDate": [
+
+      ],
+      "MedicalRecordNumber": [
+
+      ],
+      "ValidationMsgs": [
+        "Perform a search to view patient list"
+
+      ],
+      "agGridEdit": [
+        "Results in copath",
+        "Copath"
+
+      ]
+    }
+  ],
+
+  "Login": [
+    {
+      "UserName": [
+        "PILabAdmin",
+        "PILabfellow",
+        "PILabReviewer",
+        "PICpPathalogist"
+
+      ],
+      "Password": [
+        "password$123",
+        "password$124",
+        "password$125",
+        "password$128"
+      ]
+    }
+  ],
+
+  "Result": [
+    {
+      "ExternalQAflags": [
+        "",
+        "",
+        ""
+
+      ],
+      "TestResults": [
+        "",
+        "",
+        ""
+      ],
+      "ResultedDate&Time": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+
+
+}

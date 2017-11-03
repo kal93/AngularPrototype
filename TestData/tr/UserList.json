@@ -1,0 +1,62 @@
+[
+  {
+    "UserId": 1,
+    "Name": "Laboratuar Yöneticisi",
+    "UserName": "PILabAdmin",
+    "UserDescription": "(yönetici -Lab 6.3 PRE- GA Build)",
+    "HostSystem": "laboratuvar",
+    "HostRole": "yönetici",
+    "Permissions": "CanEdit",
+    "Password": "password$123"
+  },
+  {
+    "UserId": 2,
+    "Name": "Laboratuvar Araştırmacısı",
+    "UserName": "PILabfellow",
+    "UserDescription": "(adam -Lab 6.3 PRE- GA Build)",
+    "HostSystem": "laboratuvar",
+    "HostRole": "adam",
+    "Permissions": "CanView",
+    "Password": "password$124"
+  },
+  {
+    "UserId": 3,
+    "Name": "laboratuvar eleştirmen",
+    "UserName": "PILabReviewer",
+    "UserDescription": "(eleştirmen -Lab 6.3 PRE- GA Build)",
+    "HostSystem": "laboratuvar",
+    "HostRole": "eleştirmen",
+    "Permissions": "CanView",
+    "Password": "password$125"
+  },
+  {
+    "UserId": 4,
+    "Name": "Copath, Yöneticisi",
+    "UserName": "PICpAdmin",
+    "UserDescription": "(yönetici-CoPath 6.3 PRE-GA Build)",
+    "HostSystem": "Copath",
+    "HostRole": "yönetici",
+    "Permissions": "CanEdit",
+    "Password": "password$126"
+  },
+  {
+    "UserId": 5,
+    "Name": "Copath Hakemi",
+    "UserName": "PICpReviewer",
+    "UserDescription": "(eleştirmen-CoPath 6.3 PRE-GA Build)",
+    "HostSystem": "Copath",
+    "HostRole": "eleştirmen",
+    "Permissions": "CanView",
+    "Password": "password$127"
+  },
+  {
+    "UserId": 6,
+    "Name": "Copath Patolog",
+    "UserName": "PICpPathalogist",
+    "UserDescription": "(Patolog-CoPath 6.3 PRE-GA Build)",
+    "HostSystem": "Copath",
+    "HostRole": "Patolog",
+    "Permissions": "CanView",
+    "Password": "password$128"
+  }
+]

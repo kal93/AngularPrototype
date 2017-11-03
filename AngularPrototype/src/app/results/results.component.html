@@ -1,0 +1,52 @@
+<div *ngIf="selectedPatientfromPatientList.PatientIDs==null; else resultGrid">
+    <div class="result-section ">
+        <!--Title of Results page-->
+        <span class="result-header">{{title}}</span>
+        <div class="result-section">
+            <div class="no-result-div">
+                <p>
+                    {{noPatientIDSelected}}
+                    <a routerLink="/search" routerLinkActive="active">{{goBackToSearch}}</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<ng-template #resultGrid>
+    <div *ngIf="isLoading">
+        <!-- displays overlayscreen and spinner simultaneously-->
+        <app-spinner></app-spinner>
+    </div>
+    <div>
+        <div class="result-section">
+            <!--Title of Results page-->
+            <span class="result-header">{{title}}</span>
+            <!--Update Button to update modified Test Results data to Datasource by WebAPI call-->
+            <div class="update-section">
+                <button md-raised-button class="sq-btn btn-primary" (click)="updateResult()" [disabled]="isUpdateDisable">
+                    <span *ngIf="isUpdateShowActionIcon"><i class="fa fa-spinner fa-pulse fa-fw loginLoader"></i></span>
+                    {{isUpdateShowActionIcon ? updateActionText: updateText}}
+                </button>
+            </div>
+            <!--Show/Hide All button to expand & collapse rows in result grid-->
+            <div class="update-section">
+                <button md-raised-button class="sq-btn btn-secondary" (click)="expandCollapseResult()">
+                    {{hideShowButtonText}}
+                </button>
+            </div>
+            <div>
+                <!--Ag-grid to display Accession Banner Details-->
+                <ag-grid-angular class="ag-material result-master"
+                                 [gridOptions]="accessionBannerGridOptions"
+                                 [rowData]="patientResultData"
+                                 [isFullWidthCell]="isFullWidthCell"
+                                 [getNodeChildDetails]="getNodeChildDetails"
+                                 [getRowHeight]="getRowHeight"
+                                 [fullWidthCellRendererFramework]="getFullWidthCellRenderer()"
+                                 enableSorting
+                                 enableColResize>
+                </ag-grid-angular>
+            </div>
+        </div>
+    </div>
+</ng-template>

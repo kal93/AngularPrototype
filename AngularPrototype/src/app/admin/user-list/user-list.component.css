@@ -1,0 +1,34 @@
+/*/* 
+   Styles for manage users page from Admin tab 
+   - Users List grid 
+*/
+
+/* Styles for header Manage Users */
+h2 {
+    color: #42444f;
+    font-weight: bold;
+}
+/* Styles for Users grid */
+.users-main-grid {
+    width: 100%;
+    height: 450px;
+    font-family: inherit;
+}
+/* Styles for Users grid div (Place holder for grid) */
+.users-grid-div {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+/*style for add user button div*/
+.add-section {
+    margin-left:540px;
+}
+/*style for userlist header*/
+.manage-users-header {
+    padding-top:2%;
+    padding-left:2%;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+

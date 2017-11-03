@@ -1,0 +1,80 @@
+{
+  "Accession": [
+    {
+      "AccessionNumber": "H001",
+      "CollectDate": "2017-06-29T07:39:00",
+      "RecieveDate": "2017-06-30T09:00:00",
+      "OrderingPhysician": "JOHN",
+      "PIDX": "4428",
+      "SpecimenDetails": "Karaciğer dokusu",
+      "OrderAccountNo": null,
+      "OrderLocation": "SUNQUEST-001",
+      "PatientConsent": "true",
+      "Test": [
+        {
+          "TestName": "YARIM 23G",
+          "Units": "MG",
+          "NormalRange": "[16-40]",
+          "Callback": null,
+          "PriorityCode": null,
+          "PerformingLabCode": "[B]",
+          "TestCode": "H-09G",
+          "Result": [
+            {
+              "ResultData": "Beklemede ...",
+              "ResultedTechCode": "H-23G",
+              "ResultedTime": "06/30/2017 15:00",
+              "ExternalQAFlags": "M"
+            },
+            {
+              "ResultData": "Bilirubin sayısı daha az",
+              "ResultedTechCode": "H-00H",
+              "ResultedTime": "06/31/2017 10:00",
+              "ExternalQAFlags": "L"
+            }
+          ]
+        },
+        {
+          "TestName": "BALON 23G",
+          "Units": "LT",
+          "NormalRange": "[0-7]",
+          "Callback": null,
+          "PriorityCode": null,
+          "PerformingLabCode": "[C]",
+          "TestCode": "H-23G",
+          "Result": [
+            {
+              "ResultData": null,
+              "ResultedTechCode": "B-43G",
+              "ResultedTime": "06/30/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "üre içeriği daha az",
+              "ResultedTechCode": "H-004",
+              "ResultedTime": "06/31/2017 10:00",
+              "ExternalQAFlags": "H"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "PatientDemographics": {
+    "AkaName": "JOHN",
+    "BirthDateText": "05/11/1959",
+    "LastName": "GELLER",
+    "FirstName": "MONICA",
+    "MiddleName": null,
+    "Name": "MONICA, GELLER",
+    "MedicalRecordNumber": "2351",
+    "SSN": null,
+    "Gender": "F",
+    "NHS": "1231231234",
+    "PIDX": "4428",
+    "DateOfLastActivityText": "05/11/2018",
+    "MPI": "34007",
+    "HospitalCode": "HID1",
+    "BillingAccountNumber": null
+  }
+}

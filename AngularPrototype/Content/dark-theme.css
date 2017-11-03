@@ -1,0 +1,86 @@
+﻿/*=======MD Styles Override Start=======*/
+.mat-focused .mat-input-placeholder {
+    color: #42444f;
+}
+
+.mat-focused .mat-input-underline .mat-input-ripple {
+    background-color: #42444f;
+}
+
+.mat-checkbox-checked .mat-checkbox-background {
+    /*Used '!important' to override MD-Styles*/
+    background-color: #42444f !important;
+}
+
+.mat-pseudo-checkbox-checked {
+    background: #42444f !important;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-trigger {
+    color: #42444f;
+}
+
+.mat-select:focus:not(.mat-select-disabled).mat-primary .mat-select-underline {
+    background-color: #42444f;
+}
+
+.mat-primary .mat-option.mat-selected {
+    color: #42444f;
+}
+
+.mat-calendar-body-selected {
+    background-color: #42444f;
+}
+
+.mat-spinner path {
+    stroke: #42444f;
+}
+
+.mat-dialog-title {
+    /*Used '!important' to override Modal Dialog Styles*/
+    border-bottom: 1px solid #42444f !important;
+}
+
+.mat-toolbar {
+    background: #42444f;
+    color: #fff;
+}
+
+.mat-sidenav, .mat-toolbar {
+    /*Used '!important' to override App Header Styles*/
+    background-color: #42444f !important;
+}
+/*=======MD Styles Override End=======*/
+
+/*=======Button Styles Override Start=======*/
+.btn-primary {
+    background: #42444f;
+}
+
+    .btn-primary:hover, .btn-primary.hover,
+    .btn-primary:focus, .btn-primary.focus {
+        background: #5d606f;
+    }
+
+    .btn-primary:active, .btn-primary.active {
+        background: #515461;
+    }
+
+    .sq-btn:disabled, .sq-btn.disabled,
+    .btn-primary:disabled, .btn-primary.disabled,
+    .btn-secondary:disabled, .btn-secondary.disabled {
+        background: #d5d5d9;
+    }
+
+.btn-secondary {
+    /*Used '!important' to override MD-Styles*/
+    color: #42444f !important;
+}
+/*=======Button Styles Override End=======*/
+
+/*=======App Header Styles Override Start=======*/
+.sq-header {
+    /*Used '!important' to override App Header Styles*/
+    background-color: #42444f !important;
+}
+/*=======App Header Styles Override Start=======*/

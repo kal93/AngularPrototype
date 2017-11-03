@@ -1,0 +1,142 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "VECTOR",
+		"Gender": "M",
+		"NHS": "324000654",
+		"PIDX": "78912",
+		"AkaName": "john vector",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "GJJ",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, VECTOR"
+	},
+  "Accession": [
+    {
+      "AccessionNumber": "H126",
+      "PIDX": "78912",
+      "SpecimenDetails": "TOOTH EXTRACT",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "HARRY STYLES",
+      "Test": [
+        {
+          "AccessionNumber": "H126",
+          "TestName": "CAVITY TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H637",
+      "PIDX": "78912",
+      "SpecimenDetails": "COLAR BONE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "NIAL HORRAN",
+      "Test": [
+        {
+          "AccessionNumber": "H637",
+          "TestName": "BONE CALCIUM TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "COPATH+",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "POWERPATH+",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            },
+            {
+              "ResultData": "click here...",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H35",
+      "PIDX": "78912",
+      "SpecimenDetails": "COLAR BONE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "NIAL HORRAN",
+      "Test": [
+        {
+      "AccessionNumber": "H35",
+      "TestName": "TOOTH CALCIUM TEST 00G",
+      "Units": null,
+      "NormalRange": null,
+      "Callback": "gsdgf",
+      "PerformingLabCode": "[A421]",
+      "TestCode": "H-23G1",
+      "Result": [
+        {
+          "ResultData": "<u>click here...</u>",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "COPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "POWERPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "click here...",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        }
+      ]
+    }
+  ]
+		}
+
+	]
+}

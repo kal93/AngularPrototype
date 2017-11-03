@@ -1,0 +1,38 @@
+<div class="full-width-panel">
+    <div class="full-width-details">
+        <!--Patient Demographic details starts here-->
+        <table>
+            <tr>
+                <td class="patient-demographic"><b>{{patientIdLabel}} </b></td>
+                <td class="text-ellipsis" title="{{parentRecord.PIDX}}">{{parentRecord.PIDX}}</td>
+            </tr>
+            <tr>
+                <td class="patient-demographic"><b>{{dobLabel}} </b></td>
+                <td class="text-ellipsis" title="{{parentRecord.BirthDateText}}">{{parentRecord.BirthDateText}}</td>
+            </tr>
+            <tr>
+                <td class="patient-demographic"><b>{{genderLabel}} </b></td>
+                <td class="text-ellipsis" title="{{parentRecord.Gender}}">{{parentRecord.Gender}}</td>
+            </tr>
+            <tr>
+                <td class="patient-demographic"><b>{{nhsLabel}} </b></td>
+                <td class="text-ellipsis" title="{{parentRecord.NHS}}">{{parentRecord.NHS}}</td>
+            </tr>
+            <tr>
+                <td class="patient-demographic"><b>{{hidLabel}} </b></td>
+                <td class="text-ellipsis" title="{{parentRecord.HospitalCode}}">{{parentRecord.HospitalCode}}</td>
+            </tr>
+        </table>
+        <!--Patient Demographic details ends here-->
+    </div>
+    <!--Test results are rendered in ag-grid-->
+    <ag-grid-angular class="ag-material result-detail full-width-grid"
+                     rowHeight="50"
+                     headerHeight="30"
+                     [gridOptions]="testResultsGridOptions"
+                     enableSorting
+                     enableFilter
+                     (mousewheel)="consumeMouseWheelOnDetailGrid($event)"
+                     (DOMMouseScroll)="consumeMouseWheelOnDetailGrid($event)">
+    </ag-grid-angular>
+</div>

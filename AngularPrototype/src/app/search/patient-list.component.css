@@ -1,0 +1,38 @@
+/*This styles are for the Title section of Patient List */
+.title-div {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+/*This styles are for the Title of Patient List */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 30px 10px 10px;
+    width: 300px;
+    float: left;
+}
+/*This styles are for the field section to select Number of Last activity days*/
+.last-days-activity-div {
+    float: right;
+    margin-right: 10px;
+    min-width: 150px;
+}
+/*This styles are for the field to select Number of Last activity days*/
+.last-days-activity-full-width {
+    width: 150px;
+    margin: 5px;
+    padding-left: 200px;
+}
+/*This styles are for Show Results button*/
+.show-results-button {
+    margin-right: 55px;
+    float: right;
+}
+
+/*This Styles are for Patient list grid*/
+.patient-list-grid {
+    font-family: inherit;
+    width: 100%;
+    height: 400px;
+}

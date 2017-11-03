@@ -1,0 +1,47 @@
+/*This styles are for the input field section*/
+.search-field-section {
+    display: inline-block;
+    padding: 1% 5% 0 2%;
+}
+/*This styles are for the Checkbox section to select or default HID */
+.select-all-section {
+    display: inline-block;
+    font-size: 14px;
+    color: #b5b5b5;
+    padding-bottom: 17px;
+}
+/*This styles are for the Toggle Search text*/
+.toggle-search {
+    font-size: 14px;
+    color: #b5b5b5;
+    text-align: center;
+}
+/*This styles are for the toggle icon*/
+.toggle-chevron-icon {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+/*This styles are for HID filter section*/
+.filter-hid-section {
+    margin-top: 20px;
+    vertical-align: top;
+}
+/*This styles are for section that contains form error message and buttons*/
+.perform-search-section {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+}
+/*This styles are for error message section*/
+.error-message-section {
+    margin-right: 20px;
+}
+
+/*=======MD Styles Override Start=======*/
+.mat-input-container {
+    display: block; /*Override to display the form fields one by one in IE and Edge*/
+    width: 210px;
+}
+/*=======MD Styles Override End=======*/

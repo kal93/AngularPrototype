@@ -1,0 +1,53 @@
+/* 
+   Styles for manage users page from Admin tab 
+   - Users List update section
+*/
+
+/* Style to override select styles for Host systems and Host roles */
+.mat-select {
+    padding-bottom: 8%;
+    display:block;
+}
+/* Styles for manage users div placeholder */
+.manage-user-div {
+    margin-left: 10%;
+}
+/* Styles for user edit div placeholder */
+.user-edit-section {
+    display: -ms-inline-grid; /*Only for IE and Edge*/
+    border-top: groove;
+    display: inline-block;
+    padding: 1% 8% 0 0%;
+}
+/* Styles for all elements placed inside md-input container */
+.user-input-element {
+    margin: 10% 0 10% 0;
+}
+/* Styles for update and clear buttons section */
+.update-clear-section {
+    float: right;
+    padding-right: 100px;
+}
+/* Styles for header Update Users */
+h2 {
+    color: #42444f;
+    font-weight: bold;
+}
+/* Styles for User permissions section */
+.user-permissions {
+    padding:6% 0% 9% 0%;
+}
+/* Styles for view suppressed results checkbox */
+.suppressed-results-check {
+    margin-right: 5%;
+}
+/* Styles for user permissions label*/
+.user-permissions-label {
+    font-weight: 600;
+    color: #42444f;
+}
+/*=======MD Styles Override Start=======*/
+.mat-input-container {
+    display: block; /*Override to display the form fields one by one in IE and Edge*/
+}
+/*=======MD Styles Override End=======*/

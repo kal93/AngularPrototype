@@ -1,0 +1,24 @@
+{
+  "HostSystems": [
+    {
+      "Name": "Laboratorio"
+    },
+    {
+      "Name": "Copat"
+    }
+  ],
+  "HostRoles": [
+    {
+      "Role": "Crítico"
+    },
+    {
+      "Role": "Compañero"
+    },
+    {
+      "Role": "Administrador"
+    },
+    {
+      "Role": "Patólogo"
+    }
+  ]
+}

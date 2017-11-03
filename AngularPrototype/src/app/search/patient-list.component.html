@@ -1,0 +1,44 @@
+<!--Start of Patient List Title section -->
+<div class="title-div">
+    <div class="title">{{title}}</div>
+    <div *ngIf="isPatientListShow == true">
+        <div class="show-results-button">
+            <button md-raised-button class="sq-btn btn-primary" [disabled]="isShowResultsDisabled" (click)="showTestResult();">{{showResultText}}</button>
+        </div>
+        <div class="last-days-activity-div">
+            <md-input-container class="last-days-activity-full-width">
+                <input mdInput type="number" min="1" max="365" value="60" maxlength="3" placeholder="Days prior to last activity"
+                       i18n-placeholder="daysPriorToLastActivity|Place holder text for daysPriorToLastActivity @@daysPriorToLastActivityPlaceholder">
+            </md-input-container>
+        </div>
+    </div>
+</div>
+<!--End of Patient List Title section-->
+<!--Section to display a message if NO patients data returned -->
+<div class="no-result-div" *ngIf="isPatientListShow == false;">
+    <p>{{patientListSettings.errorMessage}}</p>
+</div>
+<!--End of message-->
+<!-- Sections to Show Patient List in Grid  -->  <!--*ngIf="patientListSettings.isPatientListShow"  *ngIf="isPatientListShow == true; else errorDiv"-->
+<div class="grid-section" *ngIf="isPatientListShow == true;">
+    <!--<ng-template #patientListGrid>-->
+    <ag-grid-angular class="ag-material patient-list-grid"
+                     rowHeight="50"
+                     headerHeight="56"
+                     rowSelection="multiple"
+                     [gridOptions]="patientListGridOptionData"
+                     [rowData]="patientListSettings.gridRowData"
+                     enableSorting
+                     animateRows
+                     suppressRowClickSelection
+                     (selectionChanged)='onSelectionChanged()'>
+    </ag-grid-angular>
+    <!--</ng-template>-->
+</div>
+
+<!--<ng-template  #errorDiv>
+    <div class="no-result-div">
+        <p>{{patientListSettings.errorMessage}}</p>
+    </div>
+    </ng-template>-->
+<!-- End of Patient List Grid section -->

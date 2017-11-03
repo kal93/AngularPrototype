@@ -1,0 +1,95 @@
+{
+	"PatientDemographics": {
+		"FirstName": "JONATHAN",
+		"LastName": "CRANE",
+		"Gender": "M",
+		"NHS": "378214782",
+		"PIDX": "83778",
+		"AkaName": "JONATHAN CRANE",
+		"BirthDateText": "06/10/1980",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "HID4",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "JONATHAN, CRANE"
+	},
+  "Accession": [
+    {
+      "AccessionNumber": "H786",
+      "PIDX": "83778",
+      "SpecimenDetails": "HAIR SAMPLE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "ZAYN WATER",
+      "Test": [
+        {
+          "AccessionNumber": "H786",
+          "TestName": "CAVITY TEST 00G",
+          "Units": null,
+          "NormalRange": null,
+          "Callback": "gsdgf",
+          "PerformingLabCode": "[A421]",
+          "TestCode": "H-23G1",
+          "Result": [
+            {
+              "ResultData": "<u>click here...</u>",
+              "ResultedTechCode": "H-23G1",
+              "ResultedTime": "13/01/2017 15:00",
+              "ExternalQAFlags": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccessionNumber": "H5672",
+      "PIDX": "83778",
+      "SpecimenDetails": "TOE BONE",
+      "OrderLocation": "COPATH LAB",
+      "PatientConsent": true,
+      "CollectDate": "03/11/2016 07:09",
+      "RecieveDate": "03/11/2016 09:09",
+      "OrderingPhysician": "STELLA",
+      "Test": [
+        {
+      "AccessionNumber": "H5672",
+      "TestName": "TOE BONE CALCIUM TEST 00G",
+      "Units": null,
+      "NormalRange": null,
+      "Callback": "gsdgf",
+      "PerformingLabCode": "[A421]",
+      "TestCode": "H-23G1",
+      "Result": [
+        {
+          "ResultData": "<u>click here...</u>",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "COPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "POWERPATH+",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        },
+        {
+          "ResultData": "click here...",
+          "ResultedTechCode": "H-23G1",
+          "ResultedTime": "13/01/2017 15:00",
+          "ExternalQAFlags": ""
+        }
+      ]
+    }
+  ]
+		}
+
+	]
+}

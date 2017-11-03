@@ -1,0 +1,9 @@
+/*=======MD Styles Override Start=======*/
+.mat-dialog-title {
+    border-bottom: 1px solid #1c92c1;
+}
+
+.mat-dialog-actions {
+    float: right;
+}
+/*=======MD Styles Override End=======*/

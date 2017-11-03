@@ -1,0 +1,43 @@
+{
+	"PatientDemographics": {
+		"FirstName": "SIMPSON",
+		"LastName": "MELON",
+		"Gender": "M",
+		"NHS": "324000654",
+		"PIDX": "56201",
+		"AkaName": "john jazz",
+		"BirthDateText": "05/11/2000",
+		"DateOfLastActivityText": "30/11/2016",
+		"HospitalCode": "GJJ",
+		"MedicalRecordNumber": "35346",
+		"MPI": "4235",
+		"Name": "SIMPSON, MELON"
+	},
+	"Accession": [{
+			"AccessionNumber": "H126",
+			"PIDX": "56201",
+			"SpecimenDetails": "TOE NAIL",
+			"OrderLocation": "COPATH LAB",
+			"PatientConsent": true,
+			"CollectDate": "03/11/2016 07:09",
+			"RecieveDate": "03/11/2016 09:09",
+			"OrderingPhysician": "STELLA",
+			"Test": [{
+				"AccessionNumber": "H126",
+				"TestName": "DNA TEST 00G",
+				"Units": null,
+				"NormalRange": null,
+				"Callback": "gsdgf",
+				"PerformingLabCode": "[A421]",
+				"TestCode": "H-23G1",
+				"Result": [{
+					"ResultData": "<u>click here...</u>",
+					"ResultedTechCode": "H-23G1",
+					"ResultedTime": "13/01/2017 15:00",
+					"ExternalQAFlags": ""
+				}]
+			}]
+		}
+
+	]
+}
